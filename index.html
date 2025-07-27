@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" /><meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+  <title>Raiders Gaming - Game Server Hosting</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    *{box-sizing:border-box;margin:0;padding:0}
+    body{font-family:'Roboto',sans-serif;background:#111;color:#eee}
+    header{position:fixed;top:0;left:0;width:100%;background:rgba(20,0,0,0.85);padding:1rem 2rem;display:flex;justify-content:space-between;align-items:center;z-index:100}
+    .logo{height:60px}
+    nav a{color:#ccc;margin:0 1rem;text-decoration:none;font-weight:600;transition:color .3s}
+    nav a:hover{color:#e63946}
+    .hero{background:url('https://sdmntprwestus2.oaiusercontent.com/files/00000000-8118-61f8-aaf7-1817a2d46988/raw?se=2025-07-27T17%3A05%3A21Z&sp=r&sv=2024-08-04&sr=b&scid=563b424a-317d-5e75-8db2-25462b68d1cf&skoid=5c72dd08-68ae-4091-b4e1-40ccec0693ae&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-07-26T19%3A42%3A00Z&ske=2025-07-27T19%3A42%3A00Z&sks=b&skv=2024-08-04&sig=X5QIW8uV8QouC6J067arEy1NwVWYGlzfuqaP8ynw4Yo%3D') center/cover no-repeat;padding:8rem 2rem;text-align:center;color:#f5f5f5;position:relative;margin-top:80px}
+    .hero::after{content:'';position:absolute;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,0.6)}
+    .hero h1{position:relative;font-size:3rem;color:#fff;text-shadow:0 0 5px #e63946;margin-bottom:1rem}
+    .hero p{position:relative;font-size:1.25rem;color:#ddd}
+    .btn-primary{display:inline-block;margin-top:1.5rem;padding:1rem 2rem;background:#e63946;color:#fff;font-weight:700;border:none;border-radius:4px;cursor:pointer;transition:background .3s}
+    .btn-primary:hover{background:#cf2f3d}
+    .section{padding:4rem 2rem;max-width:1100px;margin:0 auto}
+    .section h2{text-align:center;color:#e63946;font-size:2.25rem;margin-bottom:2rem}
+    .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:1.5rem}
+    .card{background:#1e1e1e;padding:1.5rem;border-radius:6px;box-shadow:0 2px 8px rgba(0,0,0,0.5);transition:transform .3s}
+    .card:hover{transform:translateY(-5px)}
+    .card h3{color:#fefefe;margin-bottom:.75rem}
+    .card p{color:#ccc}
+    .card button{margin-top:1rem;padding:.75rem 1.5rem;background:#e63946;color:#fff;border:none;border-radius:4px;cursor:pointer;transition:opacity .3s}
+    .card button:hover{opacity:0.8}
+    footer{background:#000;padding:2rem;text-align:center;color:#888;margin-top:2rem}
+  </style>
+</head>
+<body>
+  <header>
+    <img src="https://sdmntprnortheu.oaiusercontent.com/files/00000000-f574-61f4-a8ae-73d7015f1ed0/raw?se=2025-07-27T17%3A08%3A12Z&sp=r&sv=2024-08-04&sr=b&scid=7c4f6174-2c0a-5372-886d-7e6bec7d256a&skoid=5c72dd08-68ae-4091-b4e1-40ccec0693ae&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-07-27T13%3A21%3A53Z&ske=2025-07-28T13%3A21%3A53Z&sks=b&skv=2024-08-04&sig=160Kc%2B8gvPd9/y9vHgjbVJ74WrsmQ4hn1Z5iY0UTHEk%3D" alt="Raiders Gaming Logo" class="logo">
+    <nav>
+      <a href="#">Home</a>
+      <a href="#games">Games</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#login">Login</a>
+      <a href="#register">Register</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Instant Game Server Hosting</h1>
+    <p>Order CS 1.6, CS2, Minecraft, TS3 and more. Low ping, DDoS protection, custom panel.</p>
+    <button class="btn-primary">Order Your Server Now</button>
+  </section>
+
+  <section class="section" id="games">
+    <h2>Featured Game Servers</h2>
+    <div class="cards">
+      <div class="card"><h3>Counter‑Strike 1.6</h3><p>Solid legacy performance, anti‑cheat, mod support.</p><button>Order Now</button></div>
+      <div class="card"><h3>Counter‑Strike 2</h3><p>Modern competitive hosting, stable and scalable.</p><button>Order Now</button></div>
+      <div class="card"><h3>Minecraft</h3><p>Your own world with full FTP, mods and plugins.</p><button>Order Now</button></div>
+    </div>
+  </section>
+
+  <section class="section" id="why">
+    <h2>Why Choose Us?</h2>
+    <p style="text-align:center;max-width:700px;margin:0 auto 2rem;color:#ccc">
+      Premium server locations in Serbia & Germany, full DDoS protection, control over plugins and fast support with money-back guarantee.
+    </p>
+  </section>
+
+  <footer>&copy; 2025 Raiders-Gaming. All rights reserved.</footer>
+</body>
+</html>
